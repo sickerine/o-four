@@ -1,6 +1,6 @@
 CC = c++
-NAME = diamond
-FLAGS = -Wall -Werror -Wextra -std=c++98 -fsanitize=leak -g
+NAME = materia
+FLAGS = -Wall -Werror -Wextra -std=c++98
 FILES = main.cpp AMateria.cpp Character.cpp Cure.cpp Ice.cpp MateriaSource.cpp
 FILES_O = $(FILES:.cpp=.o)
 

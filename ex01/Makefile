@@ -1,6 +1,6 @@
 CC = c++
-NAME = diamond
-FLAGS = -Wall -Werror -Wextra -std=c++98 
+NAME = brain
+FLAGS = -Wall -Werror -Wextra -std=c++98
 FILES = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongCat.cpp WrongAnimal.cpp Brain.cpp
 FILES_O = $(FILES:.cpp=.o)
 

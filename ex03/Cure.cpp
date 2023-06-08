@@ -19,7 +19,6 @@ Cure::Cure()
 
 Cure::~Cure()
 {
-
 }
 
 Cure::Cure(const Cure & copy) : AMateria(copy)
@@ -29,8 +28,7 @@ Cure::Cure(const Cure & copy) : AMateria(copy)
 
 Cure &Cure::operator=(const Cure & copy)
 {
-    type = copy.getType();
-    
+    (void)copy;
     return (*this);
 }
 

@@ -19,7 +19,6 @@ Ice::Ice()
 
 Ice::~Ice()
 {
-
 }
 
 Ice::Ice(const Ice & copy) : AMateria(copy)
@@ -29,8 +28,7 @@ Ice::Ice(const Ice & copy) : AMateria(copy)
 
 Ice &Ice::operator=(const Ice & copy)
 {
-    type = copy.getType();
-    
+    (void)copy;
     return (*this);
 }
 
