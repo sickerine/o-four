@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AMateria.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcharrad <mcharrad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/08 09:06:25 by mcharrad          #+#    #+#             */
-/*   Updated: 2023/06/08 09:55:07 by mcharrad         ###   ########.fr       */
+/*   Updated: 2023/06/08 11:09:13 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ protected:
     std::string type;
 public:
     AMateria();
-    ~AMateria();
+    virtual ~AMateria();
     AMateria(const AMateria & copy);
     AMateria &operator=(const AMateria & copy);
     

@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ICharacter.hpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcharrad <mcharrad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/08 09:11:13 by mcharrad          #+#    #+#             */
-/*   Updated: 2023/06/08 09:16:04 by mcharrad         ###   ########.fr       */
+/*   Updated: 2023/06/08 11:05:28 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
-#include "AMateria.hpp"
 #include <iostream>
 #include <string>
 
+class AMateria;
 class ICharacter
 {
 public:

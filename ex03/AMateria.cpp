@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AMateria.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcharrad <mcharrad@student.42.fr>          +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/08 09:55:11 by mcharrad          #+#    #+#             */
-/*   Updated: 2023/06/08 10:10:29 by mcharrad         ###   ########.fr       */
+/*   Updated: 2023/06/08 11:59:47 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 AMateria::AMateria()
 {
-    std::cout << "AMateria default constructor" << std::endl;
 }
 
 AMateria::~AMateria()
@@ -46,4 +45,5 @@ std::string const &AMateria::getType() const
 
 void AMateria::use(ICharacter &target)
 {
+    (void)target;
 }
